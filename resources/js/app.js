@@ -14,10 +14,10 @@ import 'primevue/resources/primevue.min.css'                 //core css
 import 'primeicons/primeicons.css'                           //icons
 
 const app = createApp(App); //create application
-app.use(PrimeVue); //istall PrimeVue
+app.use(PrimeVue); //install PrimeVue
 
-app.component('InputText', InputText); //component one
-app.component('Button', Button); //component two
+app.component('InputText', InputText); 
+app.component('Button', Button); 
 app.component('DataTable', DataTable);
 app.component('Column', Column);
 app.component('ColumnGroup', ColumnGroup);
