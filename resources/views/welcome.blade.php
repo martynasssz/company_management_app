@@ -10,11 +10,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
        
     </head>
     <body class="antialiased">
-        <h1>Welcome to Laravel</h1>
-        <div id="example"></div>
+       
+        <div id="app">
+           
+        </div>
+
         <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
