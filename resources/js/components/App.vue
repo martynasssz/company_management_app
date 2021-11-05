@@ -20,7 +20,7 @@
                 <Column selectionMode="multiple" style="width: 3rem" :exportable="false"></Column>
                 <Column field="name" header="Company name" :sortable="true" style="min-width:12rem"></Column>
                 <Column field="email" header="Email" :sortable="true" style="min-width:16rem"></Column>  
-                <Column field="" header="Contact Count" :sortable="true" style="min-width:16rem"></Column>               
+                <Column field="contact_count" header="Contact Count" :sortable="true" style="min-width:16rem"></Column>               
                 
                 
                 <Column :exportable="false" style="min-width:8rem">

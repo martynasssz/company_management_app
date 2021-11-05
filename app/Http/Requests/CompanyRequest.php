@@ -25,7 +25,9 @@ class CompanyRequest extends FormRequest
     {
         return [
             'name' => ['required'],
-            'email' => ['required', 'email']         
+            'email' => ['required', 'email'],           
         ];
     }
+
+    
 }

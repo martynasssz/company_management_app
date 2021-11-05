@@ -12,11 +12,11 @@ class Company extends Model
     protected $fillable = [
         'name', 
         'email'
-    ];    
+    ];
     
     public function contacts()
     {
-        return $this->hasMany(State::class);
+        return $this->belongsToMany(Contact::class);
     }
 }
 
